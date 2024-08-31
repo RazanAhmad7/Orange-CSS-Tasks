@@ -1,0 +1,21 @@
+*{
+    font-size: 24px;
+}
+
+.container{
+    border: 0px solid black;
+    text-align: center;
+    width: 500px;
+   
+    margin-left: 35%;
+}
+
+th {
+    background-color: yellow;
+    text-align: end;
+}
+
+table
+{
+    width: 100%;
+}

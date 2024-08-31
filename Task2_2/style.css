@@ -1,0 +1,90 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgb(95, 198, 166), rgb(247, 243, 243));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+}
+.login{
+    padding-top: 30px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 132, 122);
+    font-size: 34px; 
+}
+.input-box{
+    margin: 22px 30px;
+}
+.input-box input{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 70px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+}
+
+.show-pass  {
+    color: gray;
+    margin: 20px 30px;
+}
+
+.show-pass label , input{
+    cursor: pointer;
+}
+
+.show-pass input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in button {
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: rgb(11, 132, 122);
+    border-radius: 15px;
+    margin: 35px 0px 0px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 45px ;
+    
+}
+
+.forgot-password p{
+    color: gray;
+    margin: 5px;
+   
+}
+.forgot-password p a{
+    color: rgb(11, 132, 122);
+    text-decoration: none;
+}
+
